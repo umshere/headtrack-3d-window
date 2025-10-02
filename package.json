@@ -1,0 +1,23 @@
+{
+  "name": "headtrack-3d-window",
+  "version": "1.0.0",
+  "description": "Head-tracked 'window mode' in the browser using MediaPipe + Three.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "mediapipe",
+    "threejs",
+    "head-tracking",
+    "3d",
+    "computer-vision"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
