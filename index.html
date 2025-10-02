@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪟 HeadTrack 3D Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Three.js canvas will be inserted here -->
+        <canvas id="canvas3d"></canvas>
+        
+        <!-- Hidden video element for webcam capture -->
+        <video id="webcam" autoplay playsinline></video>
+        
+        <!-- Status indicator -->
+        <div id="status">Initializing...</div>
+        
+        <!-- Info panel -->
+        <div id="info">
+            <h2>🪟 HeadTrack 3D Window</h2>
+            <p>Move your head to see the 3D parallax effect!</p>
+            <div id="calibration">
+                <p><strong>Calibration:</strong></p>
+                <p>IPD: <span id="ipd-value">63</span> mm</p>
+                <p>Screen Width: <span id="screen-width-value">0.28</span> m</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Load Three.js from CDN -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    
+    <!-- Main application logic -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
