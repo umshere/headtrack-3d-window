@@ -85,4 +85,4 @@ headtrack-3d-window/
 
 ## 📜 License
 
-MIT License — free to use, hack, and improve.
+Apache License 2.0 — see [LICENSE](LICENSE) for details.
