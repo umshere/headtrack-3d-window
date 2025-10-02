@@ -19,5 +19,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
   }
 }
